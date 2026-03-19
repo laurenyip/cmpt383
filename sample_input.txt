@@ -1,0 +1,8 @@
+Const True
+Const False
+Var "x1"
+And (Var "x1") (Not (Var "x1"))
+Or (Var "x1") (Var "x2")
+Imply (Var "x1") (Var "x2")
+Iff (Var "x1") (Var "x2")
+And (Var "a") (Or (Var "b") (Var "c"))
